@@ -48,3 +48,10 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+/* Keep project artwork inside its card column and center narrower images. */
+.project-card-image {
+  width: 100%;
+  height: 225px;
+  object-fit: contain;
+}
